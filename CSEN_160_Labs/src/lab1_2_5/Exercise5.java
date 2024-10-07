@@ -2,6 +2,22 @@ package lab1_2_5;
 import java.util.Scanner;
 
 public class Exercise5 {
+	/*
+		public static boolean isItALeapYear(int year){
+		//if the year is divisible by 4, but not 100 OR if the year is divisible by 400
+		//print & return true or false
+		if ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0)) {
+			System.out.print(year);
+			System.out.println(" is a leap year.");
+			return true;
+		}else {
+			System.out.print(year);
+			System.out.println(" is not a leap year.");
+			return false
+		}
+	}
+	
+	*/
 	public boolean isItALeapYear(int year){
 		//if the year is divisible by 4, but not 100 OR if the year is divisible by 400
 		//print & return true or false
@@ -16,7 +32,7 @@ public class Exercise5 {
 			return false;
 		}
 	}
-	
+
 	public static void tester(){
 		//declare scanner and object
 		Scanner in = new Scanner(System.in);
