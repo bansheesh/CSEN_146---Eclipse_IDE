@@ -54,15 +54,14 @@ class Stack {
 
 	public int pop() {
 		// Remove one object
-		myArr.remove();
-		return -1;
+		return myArr.remove();
 	}
 
 	public void showStack() {
 		// Show the elements in the order of LIFO
 		int [] showArr = myArr.returnArray();
-		for(int i = 0; i < showArr.length - 1; i ++)
-			System.out.println(showArr);
+		for(int i = showArr.length - 1; i >= 0; i --)
+			System.out.println(showArr[i]);
 	}
 }
 
